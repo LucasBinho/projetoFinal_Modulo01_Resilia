@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    bottom: 0;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+header {
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: x-large;
+    color: rgb(218, 45, 45);;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: rgb(218, 45, 45);
+}
