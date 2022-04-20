@@ -9,12 +9,36 @@ header {
     display: flex;
     justify-content: center;
     font-size: x-large;
-    color: rgb(218, 45, 45);;
+    color: rgb(218, 45, 45);
+}
+
+.paragrafo {
+    font-family: 'Cinzel', serif;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecionar {
+    width: 15%;
+    margin-top: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(0, 0, 0);
+    font-weight: 800;
 }
 
 .main {
     display: flex;
     justify-content: space-around;
+    max-height: 665px;
 }
 
 .container {
@@ -22,6 +46,8 @@ header {
     flex-direction: column;
     align-items: center;
     width: 25%;
+    height: 300px;
+    margin-top: 7em;
     border-width: 2em;
     border-style: solid;
     border-radius: 15px;
@@ -31,9 +57,11 @@ header {
 }
 
 .images {
-    width: 400px;
-    height: 810px;
+    width: 200px;
+    height: 252px;
 }
+
+
 
 footer {
     width: 100%;
