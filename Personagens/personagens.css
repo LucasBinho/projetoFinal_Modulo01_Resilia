@@ -3,13 +3,18 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../assets/images/teste1.png);
+    background-color: rgba(138, 114, 73, 1); 
+}
 
 header {
     font-family: 'Cinzel', serif;
     display: flex;
     justify-content: center;
     font-size: x-large;
-    color: rgb(218, 45, 45);
+    color: black;
+    opacity: 0.8;
 }
 
 .paragrafo {
@@ -36,25 +41,31 @@ button:hover {
 }
 
 .main {
+    width: 50%;
     display: flex;
-    justify-content: space-around;
-    max-height: 665px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 22em;
+    height: 300px;
+    border-width: 2em;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: transparent;
+    
 }
+    
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
-    height: 300px;
-    margin-top: 7em;
-    border-width: 2em;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: transparent;
-    background-color: rgb(218, 45, 45);
-    box-shadow: hsl(215, 32%, 27%) 0px 20px 30px -10px;
+    justify-content: center;
+    border: 2px solid rgba(138, 114, 73, 1);
+    border-radius: 8px;
+    
 }
+
 
 .images {
     width: 200px;
@@ -64,10 +75,11 @@ button:hover {
 
 
 footer {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    border-top: 1px solid black;
     position: absolute;
     bottom: 0;
-    background-color: black;
-    color: rgb(218, 45, 45);
+    background-color: white;
+    color: rgba(138, 114, 73, 1);
 }
