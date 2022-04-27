@@ -21,5 +21,5 @@ de escolhas, afim de praticar tudo que aprendemos no módulo 01 de HTML, CSS e J
 - [x] Git
 
 
-<h2>Autor: [Lucas Passos]</h2>
-<h2>Linkedin: (https://www.linkedin.com/in/lucas--passos/)</h2>
+<h3>Autor: Lucas Passos</h3>
+<h3>Linkedin: https://www.linkedin.com/in/lucas--passos/</h3>
