@@ -1,8 +1,0 @@
-Passo a passo:
-Dia 13/04: Primeira reunião sobre temática e personagens
-
-15/04: Definição oficial das temáticas e personagens/envio do formulário]
-
-18/04: Início da criação do código:
--Anotar pq estamos utilizando cada funcao de codigo (oq usou e porque)
-
